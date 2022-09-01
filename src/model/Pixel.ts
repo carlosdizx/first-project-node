@@ -1,4 +1,4 @@
-export class Color {
+export class Pixel {
     private _r: number;
     private _g: number;
     private _b: number;

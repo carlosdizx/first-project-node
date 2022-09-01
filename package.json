@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/carlosdizx/first-project-node/issues"
   },
-  "homepage": "https://github.com/carlosdizx/first-project-node#readme"
+  "homepage": "https://github.com/carlosdizx/first-project-node#readme",
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
 }
