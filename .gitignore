@@ -145,3 +145,5 @@ dist
 
 .idea/
 /package-lock.json
+/dist/
+.dist/
