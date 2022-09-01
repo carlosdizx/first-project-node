@@ -1,0 +1,20 @@
+{
+  "name": "first-project-node",
+  "version": "1.0.0",
+  "description": "Primer proyecto con nodejs 12 para Finaktiva - Libera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Carlos Díaz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdizx/first-project-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosdizx/first-project-node/issues"
+  },
+  "homepage": "https://github.com/carlosdizx/first-project-node#readme"
+}
