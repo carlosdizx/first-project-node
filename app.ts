@@ -26,3 +26,19 @@ poblarImagen(img2, 10, 10);
 poblarImagen(img3, 10, 10);
 poblarImagen(img4, 10, 10);
 
+const generarImagenHTML = (img: Imagen) => {
+  let html = "<tr>";
+
+  for (const p of img.ancho) {
+    const pixelHtml = `<td style='background-color: rgb(${p.r},${p.g},${p.b})'></td>`;
+    html += pixelHtml;
+  }
+  for (const p of img.alto) {
+    const pixelHtml = `<td style='background-color: rgb(${p.r},${p.g},${p.b})'></td>`;
+    html += pixelHtml;
+  }
+  return html.concat("</tr>");
+};
+
+const htmlImg1 = generarImagenHTML(img1);
+console.log(htmlImg1);
