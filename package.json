@@ -2,11 +2,10 @@
   "name": "first-project-node",
   "version": "1.0.0",
   "description": "Primer proyecto con nodejs 12 para Finaktiva - Libera",
-  "main": "index.ts",
-  "type": "module",
+  "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "tsc && node dist/app.js"
   },
   "keywords": [],
   "author": "Carlos Díaz",
@@ -21,5 +20,9 @@
   "homepage": "https://github.com/carlosdizx/first-project-node#readme",
   "dependencies": {
     "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   }
 }

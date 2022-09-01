@@ -5,8 +5,8 @@ export class Imagen {
   private _alto: Pixel[];
 
   constructor(ancho: number, alto: number) {
-    this._ancho = new Pixel[ancho]();
-    this._alto = new Pixel[alto]();
+    this._ancho = [];
+    this._alto = [];
   }
 
   get ancho(): Pixel[] {
