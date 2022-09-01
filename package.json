@@ -2,9 +2,11 @@
   "name": "first-project-node",
   "version": "1.0.0",
   "description": "Primer proyecto con nodejs 12 para Finaktiva - Libera",
-  "main": "index.js",
+  "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Carlos Díaz",
