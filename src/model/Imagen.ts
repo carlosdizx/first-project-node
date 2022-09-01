@@ -1,10 +1,10 @@
 import { Pixel } from "./Pixel";
 
 export class Imagen {
-  private _ancho: Pixel[];
-  private _alto: Pixel[];
+  private readonly _ancho: Pixel[];
+  private readonly _alto: Pixel[];
 
-  constructor(ancho: number, alto: number) {
+  constructor() {
     this._ancho = [];
     this._alto = [];
   }
@@ -13,15 +13,7 @@ export class Imagen {
     return this._ancho;
   }
 
-  set ancho(value: Pixel[]) {
-    this._ancho = value;
-  }
-
   get alto(): Pixel[] {
     return this._alto;
-  }
-
-  set alto(value: Pixel[]) {
-    this._alto = value;
   }
 }

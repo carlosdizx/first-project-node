@@ -11,7 +11,7 @@ export class Pixel {
         this._b = b;
     }
 
-    validarRango = (r: number, g: number, b: number): boolean =>
+    private validarRango = (r: number, g: number, b: number): boolean =>
         r >= 0 && r <= 255 &&
         g >= 0 && g <= 255 &&
         b >= 0 && b <= 255;
