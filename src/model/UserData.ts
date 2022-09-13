@@ -1,9 +1,7 @@
 export class UserData {
-    public readonly id: string;
-    public readonly name: string;
-
-    constructor(id: string, name: string) {
-        this.id = id;
-        this.name = name;
-    }
+  public static from(json: any) {
+    return Object.assign(new UserData(), json);
+  }
+  public id: string;
+  public name: string;
 }
