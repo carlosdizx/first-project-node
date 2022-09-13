@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/carlosdizx/first-project-node#readme",
   "dependencies": {
+    "object-mapper": "^6.2.0",
     "prettier": "^2.7.1"
   },
   "devDependencies": {
